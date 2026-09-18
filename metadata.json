@@ -3,8 +3,6 @@
   "moduleDisplayName": "FinOps Toolkit FinOps Hub",
   "moduleDescription": "Intended AVM Terraform pattern module for FinOps Toolkit FinOps Hub.",
   "canonicalType": "finopstoolkit-finopshub",
-  "owners": [
-    "didayal"
-  ],
+  "owners": [],
   "telemetryIdPrefix": "46d3xtrf.ptn.77ed69a"
 }
