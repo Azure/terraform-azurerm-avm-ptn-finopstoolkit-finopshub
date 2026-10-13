@@ -1,15 +1,13 @@
-# terraform-azurerm-avm-template
+# FinOps Toolkit FinOps Hub
 
-This is a template repo for Terraform Azure Verified Modules.
+This module is **Proposed and unimplemented**. The current code is the generic
+AzAPI virtual network starter from Avm.Authoring, not a FinOps Hub implementation.
+It creates a virtual network in an existing resource group; it does not deploy
+FinOps Toolkit services.
 
-Things to do:
-
-1. Set up a GitHub repo environment called `test`.
-1. Configure environment protection rule to ensure that approval is required before deploying to this environment.
-1. Create a user-assigned managed identity in your test subscription.
-1. Create a role assignment for the managed identity on your test subscription, use the minimum required role.
-1. Configure federated identity credentials on the user assigned managed identity. Use the GitHub environment.
-1. Search and update TODOs within the code and remove the TODO comments once complete.
+The unfinished template inputs and outputs have been replaced. This starter
+requires `address_space`, `location`, `name`, and `parent_id`, and returns
+`resource_id`. It is not an upgrade path for deployed infrastructure.
 
 > [!IMPORTANT]
 > As the overall AVM framework is not GA (generally available) yet - the CI framework and test automation is not fully functional and implemented across all supported languages yet - breaking changes are expected, and additional customer feedback is yet to be gathered and incorporated. Hence, modules **MUST NOT** be published at version `1.0.0` or higher at this time.
